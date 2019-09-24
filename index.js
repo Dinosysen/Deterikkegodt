@@ -23,7 +23,7 @@ let handleRequest = (request, response) => {
   } else if (url == "/olje") {
     lastfil(response, "Olje/olje.html");
   } else if (url == "/omoss") {
-    lastfil(response, "Om oss/omoss.html");
+    lastfil(response, "Omoss/omoss.html");
   } else {
     response.write("<h1>Ikke implementert</h1>");
   }

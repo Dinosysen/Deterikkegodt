@@ -46,6 +46,29 @@ main {
   grid-template-rows: 200px 50px auto 100px;
 }
 
+.scooter1,
+.scooter2,
+.scooter3 {
+  display: flex;
+  margin-top: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 300px;
+  background: lightgoldenrodyellow;
+  border: solid 1px black;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+#scooterheading {
+  text-align: center;
+}
+#str_price {
+  padding-top: 70px;
+  padding-left: 20px;
+  font-size: 23px;
+  font-weight: 600;
+}
+
 header,
 aside,
 footer {
@@ -64,3 +87,55 @@ p {
   color: darkslategrey;
   margin: 10px;
 }
+
+/* Kontakt CSS Start*/
+.konstaktOssHeadBox {
+  background: rgb(202, 202, 202);
+  padding: 5px;
+}
+.kontaktOssHead {
+  padding-left: 5px;
+}
+.kontaktBody {
+  margin: 0;
+  padding: 0;
+}
+.kontaktForm {
+  background: rgb(231, 231, 231);
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.kontaktForm ul {
+  list-style-type: none;
+}
+.kontaktForm ul li {
+  padding: 5px;
+  font-size: 1.3rem;
+}
+.kontaktForm ul li textarea {
+  width: 600px;
+}
+.konstaktInfoHead {
+  padding-left: 22px;
+  padding-top: 20px;
+}
+.kontaktInfoBox {
+  position: static;
+  bottom: 0;
+  width: 100%;
+  background: rgb(231, 231, 231);
+  margin: 5;
+  padding: 5;
+  padding-bottom: 60px;
+}
+.kontaktInfo {
+  display: flex;
+  font-size: 1.6rem;
+  justify-content: space-around;
+}
+.kontaktIkon {
+  max-width: 20px;
+  max-height: 20px;
+}
+/* Kontakt CSS Slutt*/
