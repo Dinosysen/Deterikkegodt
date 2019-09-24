@@ -46,12 +46,3 @@ function lastfil(response, filnavn) {
 function about(res) {
   res.write("About this page");
 }
-
-function blogginlegg(res) {
-  for (let i = 0; i != 6; i++) {
-    res.write("<h1>Bloggpost " + i.toString() + "</h1>");
-    res.write(
-      "<p>lorem ds ds fsdf dsf sfds sf dsf ddsg sgdg sfg fgds kgsdig sgs</p>"
-    );
-  }
-}
