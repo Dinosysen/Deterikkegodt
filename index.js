@@ -20,9 +20,9 @@ let handleRequest = (request, response) => {
   } else if (url == "/kontakt") {
     lastfil(response, "Kontakt/index.html");
   } else if (url == "/mennesker") {
-    lastfil(response, "Mennesker/index.html");
+    lastfil(response, "mennesker/index.html");
   } else if (url == "/olje") {
-    lastfil(response, "Olje/olje.html");
+    lastfil(response, "olje/olje.html");
   } else if (url == "/omoss") {
     lastfil(response, "Omoss/omoss.html");
   } else {
