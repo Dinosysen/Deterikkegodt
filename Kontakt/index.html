@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="main.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Kontakt</title>
+  </head>
+  <body class="kontaktBody">
+    <h1 class="kontaktOssHead">Kontakt Oss</h1>
+    <form action="_self" class="kontaktForm">
+      <ul>
+        <li>
+          <label for="name">Navn:&nbsp;</label>
+          <input name="name" type="text" placeholder="Fornavn" />
+        </li>
+        <li>
+          <label for="mail">Email:</label>
+          <input name="mail" type="text" placeholder="eksempel@mail.no" />
+        </li>
+        <li>
+          <select name="contantOptions">
+            <option value="question">Spørsmål</option>
+            <option value="feedback">Tilbakemelding</option>
+            <option value="suggestion">Forslag</option>
+          </select>
+        </li>
+        <li>
+          <label for="message">Melding:</label>
+        </li>
+        <li>
+          <textarea
+            name="message"
+            placeholder="Skriv din meldig her"
+            id="message"
+          ></textarea>
+        </li>
+      </ul>
+    </form>
+    <div class="kontaktInfoBox">
+      <h2 class="konstaktInfoHead">Kontakt info:</h2>
+      <br />
+      <div class="kontaktInfo">
+        <div class="tlfOgMail">
+          <ul>
+            <li>
+              <img
+                src="images/phone-512.png"
+                alt="telefon ikon"
+                class="kontaktIkon"
+              />
+              23562265
+            </li>
+            <li>
+              <img
+                src="images/Mail_black-512.png"
+                alt="mail ikon"
+                class="kontaktIkon"
+              />
+              kontakt@deterikkegodt.no
+            </li>
+          </ul>
+        </div>
+        <div class="firmaInfo">
+          <ul>
+            <li>Adresse: Veien 5</li>
+            <li>Support Tider: 07:00 til 16:00</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

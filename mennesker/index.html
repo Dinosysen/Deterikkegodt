@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="no">
   <head>
+    <style>
+      #troll {
+        min-width: 100px;
+        min-height: 300px;
+        background-image: url("/mennesker/mann.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+    </style>
     <meta charset="UTF-8" />
     <title>Mennesker</title>
   </head>
@@ -15,13 +24,34 @@
         </ul>
       </nav>
     </header>
+    <script>
+      function nerd() {
+        let element = document.getElementById("troll");
+        element.style.backgroundImage = "url('/mennesker/nerd.jpg')";
+        alert("Warning! you got virus call +47 904 72 500");
+      }
+      function normal() {
+        let element = document.getElementById("troll");
+        // var element = document.querySelectAll("#troll");
+        element.style.backgroundImage = "url('/mennesker/mann.jpg')";
+      }
+    </script>
     <main>
-      <h3>Lei en venn</h3>
-      <img src="/mennesker/Nerd.jpg" alt="Bilde av en Mann" />
-      <h3>Lei en forlover</h3>
-      <img src="/mennesker/japse.jfif" alt="Bilde av en mann og en dame" />
-      <h3>Kjøp gammel dame</h3>
-      <img src="/mennesker/dame.jfif" alt="bilde av en gammel dame" />
+      <div id="container">
+        <h3>Lei en venn</h3>
+
+        <div id="troll" onmouseover="nerd()" onmouseout="normal()"></div>
+        Lei ossan for 10&#36; timen
+        <h3>Lei en forlover</h3>
+        <img src="/mennesker/japse.jfif" alt="Bilde av en mann og en dame" />
+        Ikke bli en Hikikomori lei en forlover for 5000&#36;
+
+        <p>
+          Fra ensomme pensjonister til japanske skolejenter med knuste drømmer
+        </p>
+        <h3>Kjøp gammel dame</h3>
+        <img src="/mennesker/dame.jfif" alt="bilde av en gammel dame" />
+      </div>
     </main>
   </body>
 </html>
