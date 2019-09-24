@@ -5,6 +5,11 @@
 }
 nav {
 }
+nav > ul {
+}
+nav > ul li {
+}
+
 /* Body base */
 
 body {
@@ -15,4 +20,10 @@ main {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: 200px 50px auto 100px;
+}
+
+header,
+aside,
+footer {
+  display: flex;
 }
