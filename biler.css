@@ -8,56 +8,7 @@
 body {
   font-family: "open sans";
 }
-/*----MENY----*/
-.nav {
-  /*transp nav bar - NB-text-align: right; meny plassering - erstattet med flex*/
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
-  padding-left: 30px;
-  /* padding-right: 20px; */
-  display: flex;
-  justify-content: space-between; /*moves the menu to the right*/
-  align-items: center; /*moves menu to center of box and some padding over logo*/
-  background: rgb(255, 255, 255, 0.75);
-  font-size: 0.85em;
-  font-weight: 300;
-}
-nav ul {
-  /*removes bullets*/
-  list-style-type: none;
-  padding: 0;
-  width: 100%;
-}
-.jc-space-around {
-  justify-content: space-around;
-}
-nav a {
-  text-decoration: none;
-  text-align: center;
-  color: #444444;
-  display: inline-block;
-  padding: 10px;
-}
-.nav a:hover {
-  color: rgb(243, 220, 14);
-}
-.logo img {
-  display: inline-block;
-  width: 100px;
-  vertical-align: center;
-}
-.search img {
-  display: inline-block;
-  width: 15px;
-  vertical-align: center;
-}
-@media screen and (min-width: 768px) {
-  nav ul {
-    display: flex;
-    justify-content: flex-end;
-  }
-}
+
 .container {
   display: flex;
   background: white;
@@ -100,16 +51,6 @@ nav a {
   margin: 30px;
 }
 
-/* .leftcolumn_1 {
-  float: left;
-   margin: 40px;
-}
-.light-white {
-  background: #fcfcfc;
-  min-height: 700px;
-  padding: 50px;
-} */
-
 /*--SHOWCASE--*/
 .section-light-grey {
   background: #fcfcfc;
@@ -120,7 +61,32 @@ nav a {
   border-top: 1px solid #e3e3e3;
   border-bottom: 1px solid #e3e3e3;
 }
-
+.showcase-container {
+  display: grid;
+  grid-column-gap: 1px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto 50px;
+  /* width: 1000px; */
+  width: fit-content;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 0 auto;
+}
+.showcase-container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 1px solid #e3e3e3;
+}
+.showcase img {
+  /* grid-column: 1 / -1; */
+  width: 100%;
+  font-size: 13px;
+  font-weight: 100;
+  text-align: left;
+  /* margin-top: 20px; */
+}
 /*--FEATURES--*/
 .features-container {
   display: flex;
@@ -207,18 +173,6 @@ nav a {
   margin-bottom: 10px;
 }
 /*--BUTTON ICON--*/
-/* 
-.avia-button-right {
-  display: block;
-  float: right;
-}
-.avia-button.avia-size-large {
-  padding: 15px 30px 13px;
-  font-size: 13px;
-  min-width: 139px;
-}
-position: relative;
-left: -0.3em; */
 
 .btn {
   border-radius: 3px;
