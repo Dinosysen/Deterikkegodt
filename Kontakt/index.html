@@ -8,7 +8,9 @@
     <title>Kontakt</title>
   </head>
   <body class="kontaktBody">
-    <h1 class="kontaktOssHead">Kontakt Oss</h1>
+    <div class="konstaktOssHeadBox">
+      <h1 class="kontaktOssHead">Kontakt Oss</h1>
+    </div>
     <form action="_self" class="kontaktForm">
       <ul>
         <li>
@@ -31,11 +33,13 @@
         </li>
         <li>
           <textarea
+            rows="20"
             name="message"
             placeholder="Skriv din meldig her"
             id="message"
           ></textarea>
         </li>
+        <li><input type="submit" value="Send" /></li>
       </ul>
     </form>
     <div class="kontaktInfoBox">
