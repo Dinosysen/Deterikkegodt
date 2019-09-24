@@ -12,6 +12,18 @@ let handleRequest = (request, response) => {
     lastfil(response, "havfruer.html");
   } else if (url == "/biler") {
     lastfil(response, "biler.html");
+  } else if (url == "/checkout") {
+    lastfil(response, "Checkout/checkout.html");
+  } else if (url == "/hage") {
+    lastfil(response, "Hage/hageting.html");
+  } else if (url == "/kontakt") {
+    lastfil(response, "Kontakt/index.html");
+  } else if (url == "/mennesker") {
+    lastfil(response, "Mennesker/index.html");
+  } else if (url == "/olje") {
+    lastfil(response, "Olje/olje.html");
+  } else if (url == "/omoss") {
+    lastfil(response, "Om oss/omoss.html");
   } else {
     response.write("<h1>Ikke implementert</h1>");
   }
