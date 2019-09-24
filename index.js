@@ -15,7 +15,7 @@ let handleRequest = (request, response) => {
   } else if (url == "/checkout") {
     lastfil(response, "Checkout/checkout.html");
   } else if (url == "/hage") {
-    lastfil(response, "Hage/hageting.html");
+    lastfil(response, "Hage/hage.html");
   } else if (url == "/kontakt") {
     lastfil(response, "Kontakt/index.html");
   } else if (url == "/mennesker") {
