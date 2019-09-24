@@ -1,10 +1,5 @@
 let http = require("http");
 
-//test for å fortelle hvor man henter 'static files', som kan være CSS, JS og bilder
-
-app.use(express.static(path.join(__dirname, "images")));
-app.use(express.static(path.join(__dirname, "css")));
-
 let handleRequest = (request, response) => {
   response.writeHead(200, {
     "Content-Type": "text/html"
