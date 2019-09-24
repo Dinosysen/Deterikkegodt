@@ -1,3 +1,7 @@
+.konstaktOssHeadBox {
+  background: rgb(202, 202, 202);
+  padding: 5px;
+}
 .kontaktOssHead {
   padding-left: 5px;
 }
@@ -7,18 +11,26 @@
 }
 .kontaktForm {
   background: rgb(231, 231, 231);
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 .kontaktForm ul {
   list-style-type: none;
 }
 .kontaktForm ul li {
   padding: 5px;
+  font-size: 1.3rem;
+}
+.kontaktForm ul li textarea {
+  width: 600px;
 }
 .konstaktInfoHead {
   padding-left: 22px;
+  padding-top: 20px;
 }
 .kontaktInfoBox {
-  position: fixed;
+  position: static;
   bottom: 0;
   width: 100%;
   background: rgb(231, 231, 231);
