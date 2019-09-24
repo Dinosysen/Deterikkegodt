@@ -92,7 +92,7 @@ body {
   display: flex;
   background: #ffffff;
   align-items: center;
-  padding: 30px;
+  padding: 40px;
   justify-content: center;
 }
 .features-inner-container {
@@ -145,6 +145,8 @@ body {
 .img-1 {
   display: inline-block;
   width: 100%;
+  border: 1px solid #e3e3e3;
+  border-radius: 3px;
 }
 .img-2 {
   display: inline-block;
@@ -229,6 +231,7 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: center;
+  padding-bottom: 20px;
 }
 .brodtext-norm {
   font-size: 13px;
