@@ -99,6 +99,7 @@ p {
 .kontaktBody {
   margin: 0;
   padding: 0;
+  height: 100vh;
 }
 .kontaktForm {
   background: rgb(231, 231, 231);
@@ -121,8 +122,8 @@ p {
   padding-top: 20px;
 }
 .kontaktInfoBox {
-  position: static;
-  bottom: 0;
+  position: relative;
+  bottom: 1px;
   width: 100%;
   background: rgb(231, 231, 231);
   margin: 5;
