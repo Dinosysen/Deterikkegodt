@@ -304,7 +304,7 @@ body {
 /*----ICONS----*/
 .icons-1 {
   display: inline-block;
-  float: left;
+  /* float: left; */
   margin-right: 10px;
 }
 .delelinje {
