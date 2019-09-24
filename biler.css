@@ -24,17 +24,7 @@ body {
   /* padding: 30px; */
   justify-content: center;
 }
-.hero-inner-container {
-  display: flex;
-  width: 70%;
-  align-items: center;
-}
-.hero-left {
-  min-width: 250px;
-}
-.hero-right {
-  padding-left: 50px;
-}
+
 .hero-container-h3 {
   font-size: 13px;
   font-weight: 600;
@@ -79,14 +69,7 @@ body {
   background-color: white;
   border: 1px solid #e3e3e3;
 }
-.showcase img {
-  /* grid-column: 1 / -1; */
-  width: 100%;
-  font-size: 13px;
-  font-weight: 100;
-  text-align: left;
-  /* margin-top: 20px; */
-}
+
 /*--FEATURES--*/
 .features-container {
   display: flex;
