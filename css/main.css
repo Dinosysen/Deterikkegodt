@@ -139,3 +139,251 @@ p {
   max-height: 20px;
 }
 /* Kontakt CSS Slutt*/
+/* Biler CSS Start */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+body {
+  font-family: "open sans";
+}
+
+.container {
+  display: flex;
+  background: white;
+}
+/*----HERO----*/
+.mt70 {
+  margin-top: 70px;
+}
+.hero-container {
+  display: flex;
+  background: #e7e7e7;
+  align-items: center;
+  /* padding: 30px; */
+  justify-content: center;
+}
+.hero-inner-container {
+  display: flex;
+  width: 70%;
+  align-items: center;
+}
+.hero-left {
+  min-width: 250px;
+}
+.hero-right {
+  padding-left: 50px;
+}
+.hero-container-h3 {
+  font-size: 13px;
+  font-weight: 600;
+  text-align: left;
+  color: #444444;
+  /* background-color: rgb(255, 255, 255); */
+  padding: 10px;
+}
+
+/*--Tre tekstbokser--*/
+
+.tre-boxer-container {
+  padding: 30px;
+  margin: 30px;
+}
+
+/*--SHOWCASE--*/
+.section-light-grey {
+  background: #fcfcfc;
+  min-height: 600px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  justify-items: center;
+  border-top: 1px solid #e3e3e3;
+  border-bottom: 1px solid #e3e3e3;
+}
+.showcase-container {
+  display: grid;
+  grid-column-gap: 1px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto 50px;
+  /* width: 1000px; */
+  width: fit-content;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 0 auto;
+}
+.showcase-container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 1px solid #e3e3e3;
+}
+.showcase img {
+  /* grid-column: 1 / -1; */
+  width: 100%;
+  font-size: 13px;
+  font-weight: 100;
+  text-align: left;
+  /* margin-top: 20px; */
+}
+/*--FEATURES--*/
+.features-container {
+  display: flex;
+  background: #ffffff;
+  align-items: center;
+  padding: 30px;
+  justify-content: center;
+}
+.features-inner-container {
+  display: flex;
+  width: 100%;
+}
+.features-left {
+  min-width: 250px;
+}
+.features-right {
+  padding-left: 50px;
+}
+.features-container-h3 {
+  font-size: 13px;
+  font-weight: 600;
+  text-align: left;
+  color: #444444;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+}
+/*--*/
+.justify-center {
+  justify-content: center;
+}
+.container-high {
+  height: 400px;
+}
+.jc {
+  justify-content: left;
+}
+.ai {
+  align-items: flex-end;
+}
+
+/*----IMAGES----*/
+.img-hero {
+  display: inline-block;
+  width: 100%;
+  background-image: url("images/hero_biler_002.jpg");
+  text-align: center;
+  font-size: 4em;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.75);
+  background-size: cover;
+  /* background-blend-mode: multiply;
+  background-color: rgba(4, 23, 31, 0.3); */
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+.img-1 {
+  display: inline-block;
+  width: 100%;
+}
+.img-2 {
+  display: inline-block;
+  width: 100%;
+}
+.showcase-image {
+  /* display: inline-block;
+  display: flex; */
+  max-width: 25%;
+  margin: 0.5px;
+}
+.long-icon {
+  display: inline-block;
+  width: 100%;
+}
+
+/*----ICONS----*/
+.icons-1 {
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+}
+.delelinje {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+/*--BUTTON ICON--*/
+
+.btn {
+  border-radius: 3px;
+  color: #666666;
+  padding: 15px 30px 13px;
+  cursor: pointer;
+  border: 1px solid #e3e3e3;
+  font-size: 13px;
+
+  min-width: 139px;
+  line-height: 1.2em;
+  position: relative;
+  font-weight: normal;
+  text-align: center;
+  max-width: 100%;
+}
+.learnmore {
+  background: #fcfcfc;
+  text-align: right;
+}
+
+.btn1:hover {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 6px 0 rgba(0, 0, 0, 0.1);
+}
+/*-- TEXT----*/
+.center-txt {
+  text-align: center;
+}
+.section-header {
+  color: #444444;
+  font-size: 27px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+.h2 {
+  color: #444444;
+  font-family: Open Sans;
+  font-size: 17px;
+  font-weight: 400;
+  font-kerning: normal;
+}
+.h3-left {
+  font-family: Open Sans;
+  font-size: 13px;
+  font-weight: 600;
+  text-align: left;
+  color: #444444;
+}
+.brodtext-center {
+  font-size: 13px;
+  font-weight: 100;
+  text-align: left;
+  color: #444444;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.brodtext-norm {
+  font-size: 13px;
+  font-weight: 100;
+  text-align: left;
+  color: #444444;
+  /* margin-top: 20px; */
+}
+.bullet-text {
+  font-size: 13px;
+  font-weight: 100;
+  text-align: left;
+  color: #444444;
+  line-height: 2em;
+  /* margin-top: 20px; */
+}
+.span-red {
+  color: #c15223;
+}
+/* Biler CSS Slutt */
