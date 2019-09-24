@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>DetErIkkeGøy.no</title>
+  </head>
+  <script>
+    var http = require("http");
+
+    http
+      .createServer(function(req, res) {
+        res.writeHead(200, { "Content-Type": "text/html" });
+        res.end("Hello World!");
+      })
+      .listen(8080);
+  </script>
+  <header>
+    <h1>DetErIkkeGøy.no</h1>
+    <nav>
+      <ul>
+        <li>Forsiden</li>
+        <li>Om oss</li>
+        <li>Kontakt</li>
+        <li>Checkout</li>
+      </ul>
+    </nav>
+  </header>
+  <body></body>
+</html>
