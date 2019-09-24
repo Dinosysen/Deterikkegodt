@@ -4,6 +4,158 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Om Oss - Deterikkegodt.no</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        width: 100%;
+        background: rgb(119, 119, 119);
+      }
+
+      .bold {
+        font-weight: ;
+      }
+      .header {
+        width: 100%;
+        height: 75px;
+        background: rgb(223, 121, 5);
+      }
+
+      .hero {
+        width: 70%;
+        margin: 0 auto;
+        background: rgb(255, 255, 255);
+      }
+      .omoss {
+        border-top: 2px solid rgba(161, 161, 161, 0.205);
+        background: #fcfcfc;
+        position: relative;
+        padding-bottom: 120px;
+        width: 70%;
+        margin: 0 auto;
+      }
+
+      .omoss-header {
+        margin: 0 auto;
+        padding: 60px 0;
+        text-align: center;
+        width: 50%;
+      }
+
+      .omoss-gridbox {
+        width: 85%;
+        margin: 0 auto;
+        position: relative;
+        display: grid;
+        padding-bottom: 40px;
+        grid-template-areas:
+          "img1 img2 img3 img4"
+          "txt1 txt2 txt3 txt4";
+      }
+
+      .omoss-picture {
+        position: relative;
+        display: block;
+        padding-left: 5px;
+        height: 150px;
+        margin: 0 auto;
+      }
+      #img1 {
+        grid-area: img1;
+      }
+      #img2 {
+        grid-area: img2;
+      }
+      #img3 {
+        grid-area: img3;
+      }
+      #img4 {
+        grid-area: img4;
+      }
+
+      #grid-item1 {
+        grid-area: txt1;
+      }
+      #grid-item2 {
+        grid-area: txt2;
+      }
+      #grid-item3 {
+        grid-area: txt3;
+      }
+      #grid-item4 {
+        grid-area: txt4;
+      }
+      .omoss-grid-item {
+        padding: 20px 10px 0px 10px;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <header class="header"></header>
+    <section class="hero"></section>
+    <section class="omoss">
+      <div class="omoss-header">
+        <h1>OM OSS</h1>
+        <img src="./flexnesavatar.pngg" alt="" />
+      </div>
+
+      <div class="omoss-gridbox">
+        <div id="img1" class="omoss-grid-item-img">
+          <img class="omoss-picture" src="./frodekommode.png" alt="" />
+        </div>
+        <div class="omoss-grid-item">
+          <p class="bold fs14">Frode "Kommode"</p>
+          <p class="fs14">Occupation - <strong>Firm</strong></p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
+            dolor nemo veniam, saepe dolores reprehenderit illo optio mollitia
+            facilis doloribus cupiditate numquam autem. Perferendis obca
+            dignissimos quis aspernatur!
+          </p>
+        </div>
+        <div id="img2" class="omoss-grid-item-img">
+          <img class="omoss-picture" src="./frodekommode.png" alt="" />
+        </div>
+        <div class="omoss-grid-item">
+          <p class="fw600 fs14">Frode "Kommode"</p>
+          <p class="fs14">Occupation - <strong>Firm</strong></p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+            saepe nesciunt sint doloribus voluptatibus odio esse rerum quos.
+            Repudiandae, architecto.
+          </p>
+        </div>
+        <div id="img3" class="omoss-grid-item-img">
+          <img class="omoss-picture" src="./frodekommode.png" alt="" />
+        </div>
+        <div class="omoss-grid-item">
+          <p class="fw600 fs14">Frode "Kommode"</p>
+          <p class="fs14">Occupation - <strong>Firm</strong></p>
+          <br />
+          <p>
+            Lorem ipsum dolorit. Harum magnam pariatur mollitia eius ipsum!
+            Accusamus ipsam dolores optio?
+          </p>
+        </div>
+        <div id="img4" class="omoss-grid-item-img">
+          <img class="omoss-picture" src="./frodekommode.png" />
+        </div>
+        <div class="omoss-grid-item">
+          <p class="fw600 fs14">Frode "Kommode"</p>
+          <p class="fs14">Occupation - <strong>Firm</strong></p>
+          <br />
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            rem doloremque dolorum fugit tempore dolor aspernatur porro placeat
+            quaerat? Aliquam deleque eos?
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
