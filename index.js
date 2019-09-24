@@ -44,6 +44,8 @@ function lastfil(response, filnavn) {
     response.end();
   });
 }
+
+//ikke i bruk?
 function about(res) {
   res.write("About this page");
 }
