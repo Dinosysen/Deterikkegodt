@@ -58,7 +58,9 @@ h4,
 h5,
 h6 {
   color: darkblue;
+  margin: 10px;
 }
 p {
   color: darkslategrey;
+  margin: 10px;
 }
