@@ -46,7 +46,6 @@ main {
   grid-template-rows: 200px 50px auto 100px;
 }
 
-<<<<<<< HEAD
 .scooter1,
 .scooter2,
 .scooter3 {
@@ -69,10 +68,7 @@ main {
   font-size: 23px;
   font-weight: 600;
 }
-p {
-  font-size: 18px;
-  padding-left: 20px;
-=======
+
 header,
 aside,
 footer {
@@ -90,7 +86,6 @@ h6 {
 p {
   color: darkslategrey;
   margin: 10px;
->>>>>>> 8c3a8155d4202004afdb7ada4f26ffe479c5d9b7
 }
 
 /* Kontakt CSS Start*/
