@@ -6,6 +6,7 @@ let handleRequest = (request, response) => {
   });
   let url = request.url;
   if (url == "/") {
+    lastfil(response, "index.html");
   } else if (url == "/sparkesykler") {
     lastfil(response, "sparkesykler.html");
   } else if (url == "/havfruer") {
