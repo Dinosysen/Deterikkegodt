@@ -68,6 +68,11 @@ main {
   font-size: 23px;
   font-weight: 600;
 }
+<<<<<<< HEAD
+p {
+  font-size: 18px;
+  padding-left: 20px;
+=======
 
 header,
 aside,
@@ -138,6 +143,7 @@ p {
 .kontaktIkon {
   max-width: 20px;
   max-height: 20px;
+>>>>>>> a9721ee35e828b16aa7c69bb56240ecd1482b33f
 }
 /* Kontakt CSS Slutt*/
 
@@ -389,3 +395,29 @@ body {
   color: #c15223;
 }
 /* Biler CSS Slutt */
+
+/* HAGE CSS START */
+
+.grid {
+  display: grid;
+  grid-template-rows: repeat(6, auto);
+  grid-template-columns: auto auto auto;
+}
+
+.header {
+  width: 100%;
+}
+
+.textp {
+  text-align: center;
+}
+
+.imgalign {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+}
+
+/* HAGE CSS SLUTT */
