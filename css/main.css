@@ -142,6 +142,17 @@ nav > ul li a:hover {
   max-width: 20px;
   max-height: 20px;
 }
+}
+.kontaktInputText {
+  height: 1.6rem;
+}
+.kontaktCommitButton {
+  height: 3rem;
+  width: 3rem;
+}
+
+/* a9721ee35e828b16aa7c69bb56240ecd1482b33f */
+
 /* Kontakt CSS Slutt*/
 
 /* Biler CSS Start */

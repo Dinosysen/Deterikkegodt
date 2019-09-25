@@ -15,14 +15,24 @@
       <ul>
         <li>
           <label for="name">Navn:&nbsp;</label>
-          <input name="name" type="text" placeholder="Fornavn" />
+          <input
+            name="name"
+            type="text"
+            placeholder="Fornavn"
+            class="kontaktInputText"
+          />
         </li>
         <li>
           <label for="mail">Email:</label>
-          <input name="mail" type="text" placeholder="eksempel@mail.no" />
+          <input
+            name="mail"
+            type="text"
+            placeholder="eksempel@mail.no"
+            class="kontaktInputText"
+          />
         </li>
         <li>
-          <select name="contantOptions">
+          <select name="contantOptions" class="kontaktInputText">
             <option value="question">Spørsmål</option>
             <option value="feedback">Tilbakemelding</option>
             <option value="suggestion">Forslag</option>
@@ -39,7 +49,9 @@
             id="message"
           ></textarea>
         </li>
-        <li><input type="submit" value="Send" /></li>
+        <li>
+          <input type="submit" value="Send" class="kontaktCommitButton" />
+        </li>
       </ul>
     </form>
     <div class="kontaktInfoBox">
