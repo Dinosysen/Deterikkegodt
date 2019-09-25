@@ -68,11 +68,15 @@ main {
   font-size: 23px;
   font-weight: 600;
 }
-<<<<<<< HEAD
+
+
+/* ==== HEAD ====  */
+
+
 p {
   font-size: 18px;
   padding-left: 20px;
-=======
+}
 
 header,
 aside,
@@ -143,8 +147,12 @@ p {
 .kontaktIkon {
   max-width: 20px;
   max-height: 20px;
->>>>>>> a9721ee35e828b16aa7c69bb56240ecd1482b33f
+
 }
+
+/* a9721ee35e828b16aa7c69bb56240ecd1482b33f */
+
+
 /* Kontakt CSS Slutt*/
 
 /* Biler CSS Start */
