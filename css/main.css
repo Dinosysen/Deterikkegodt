@@ -271,7 +271,7 @@ body {
 .img-hero {
   display: inline-block;
   width: 100%;
-  background-image: url("images/hero_biler_002.jpg");
+  background-image: url("./images/hero_biler_002.jpg");
   text-align: center;
   font-size: 4em;
   font-weight: 400;
