@@ -1,8 +1,41 @@
+/* For entire CSS file */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+/* Body base */
+body {
+  background: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 200px 50px auto 100px;
+}
+header,
+aside,
+footer {
+  display: flex;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: darkblue;
+  margin: 10px;
+}
+p {
+  color: darkslategrey;
+  margin: 10px;
+}
+/* Do not edit the above! */
+
+/* Navigation bar (Menu) */
 nav {
   grid-column: 1 /-1;
   grid-row: 2;
@@ -33,19 +66,7 @@ nav > ul li a:hover {
   color: blue;
 }
 
-/* Body base */
-
-body {
-  background: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-main {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 200px 50px auto 100px;
-}
-
+/* Sparkesykler Start */
 .scooter1,
 .scooter2,
 .scooter3 {
@@ -68,34 +89,7 @@ main {
   font-size: 23px;
   font-weight: 600;
 }
-
-
-/* ==== HEAD ====  */
-
-
-p {
-  font-size: 18px;
-  padding-left: 20px;
-}
-
-header,
-aside,
-footer {
-  display: flex;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: darkblue;
-  margin: 10px;
-}
-p {
-  color: darkslategrey;
-  margin: 10px;
-}
+/* Sparkesykler Slutt */
 
 /* Kontakt CSS Start*/
 .konstaktOssHeadBox {
@@ -147,12 +141,7 @@ p {
 .kontaktIkon {
   max-width: 20px;
   max-height: 20px;
-
 }
-
-/* a9721ee35e828b16aa7c69bb56240ecd1482b33f */
-
-
 /* Kontakt CSS Slutt*/
 
 /* Biler CSS Start */
