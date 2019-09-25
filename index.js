@@ -6,6 +6,7 @@ let handleRequest = (request, response) => {
   });
   let url = request.url;
   if (url == "/") {
+    lastfil(response, "index.html");
   } else if (url == "/sparkesykler") {
     lastfil(response, "sparkesykler.html");
   } else if (url == "/havfruer") {
@@ -19,9 +20,9 @@ let handleRequest = (request, response) => {
   } else if (url == "/kontakt") {
     lastfil(response, "Kontakt/index.html");
   } else if (url == "/mennesker") {
-    lastfil(response, "Mennesker/index.html");
+    lastfil(response, "mennesker/index.html");
   } else if (url == "/olje") {
-    lastfil(response, "Olje/olje.html");
+    lastfil(response, "olje/olje.html");
   } else if (url == "/omoss") {
     lastfil(response, "Omoss/omoss.html");
   } else {
@@ -43,6 +44,8 @@ function lastfil(response, filnavn) {
     response.end();
   });
 }
+
+//ikke i bruk?
 function about(res) {
   res.write("About this page");
 }
