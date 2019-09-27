@@ -12,17 +12,17 @@ let handleRequest = (req, res) => {
   } else if (req.url == "/biler") {
     lastfil(res, "biler.html");
   } else if (req.url == "/checkout") {
-    lastfil(res, "Checkout/checkout.html");
+    lastfil(res, "checkout.html");
   } else if (req.url == "/hage") {
     lastfil(res, "hage.html");
   } else if (req.url == "/kontakt") {
-    lastfil(res, "Kontakt/index.html");
+    lastfil(res, "kontakt.html");
   } else if (req.url == "/mennesker") {
-    lastfil(res, "mennesker/index.html");
+    lastfil(res, "mennesker.html");
   } else if (req.url == "/olje") {
     lastfil(res, "olje.html");
   } else if (req.url == "/omoss") {
-    lastfil(res, "Omoss/omoss.html");
+    lastfil(res, "omoss.html");
   } else if (req.url.match(".html$")) {
     let htmlPath = path.join(__dirname, "/", req.url);
     let fileStream = fs.createReadStream(htmlPath, "UTF-8");
