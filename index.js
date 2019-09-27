@@ -20,7 +20,7 @@ let handleRequest = (req, res) => {
   } else if (req.url == "/mennesker") {
     lastfil(res, "mennesker/index.html");
   } else if (req.url == "/olje") {
-    lastfil(res, "olje/olje.html");
+    lastfil(res, "olje.html");
   } else if (req.url == "/omoss") {
     lastfil(res, "Omoss/omoss.html");
   } else if (req.url.match(".html$")) {
