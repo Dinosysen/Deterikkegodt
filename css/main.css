@@ -404,27 +404,27 @@ body {
 /* Biler CSS Slutt */
 
 /* HAGE CSS START */
-/* 
-.grid {
+
+.hagegrid {
   display: grid;
   grid-template-rows: repeat(6, auto);
   grid-template-columns: auto auto auto;
 }
 
-.header {
+.hageheader {
   width: 100%;
 }
 
-.textp {
+.hagetextp {
   text-align: center;
 }
 
-.imgalign {
+.hageimgalign {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
   text-align: center;
-} */
+}
 
 /* HAGE CSS SLUTT */

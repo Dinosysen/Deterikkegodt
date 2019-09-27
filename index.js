@@ -14,7 +14,7 @@ let handleRequest = (req, res) => {
   } else if (req.url == "/checkout") {
     lastfil(res, "Checkout/checkout.html");
   } else if (req.url == "/hage") {
-    lastfil(res, "Hage/hage.html");
+    lastfil(res, "hage.html");
   } else if (req.url == "/kontakt") {
     lastfil(res, "Kontakt/index.html");
   } else if (req.url == "/mennesker") {
